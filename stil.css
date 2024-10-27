@@ -1,0 +1,31 @@
+body {
+    
+    margin-left: 20px;
+    font-family: "Times New Roman", Times, serif;
+    font-size: medium;
+    background-image: (linear-gradient black,rgb(156, 45, 45));
+}
+
+h1{
+    text-shadow: -6px 4px 7px darkred;
+    font-size: 300%;
+    color:black;
+    margin-left: 20px;
+    
+}
+.image-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.image-center img {
+    width: 50px;
+}
+
+textarea {
+    border-radius: 20%;
+    resize: vertical;
+    margin-top: 40px;
+}

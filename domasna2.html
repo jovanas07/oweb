@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset= "utf-8">
+    <title>Pizza</title>
+    <link rel="stylesheet" href="stil.css">
+    
+</head>
+
+<body style = "text-align:center">
+<h1>Order pizza!</h1>
+<div class="image-container">
+    <img src="https://m.media-amazon.com/images/I/41J3qSlgJiL._AC_SX466_.jpg" >
+</div>
+
+<form method="post" action="www.https://www.dominos.mk/">
+    <input type = "hidden" name = "redirect" value = "https://www.dominos.mk/">
+    <p>
+        <label><strong>Select the pizza size:</strong></label><br>
+        <label>Big
+            <input name="pizza_size" type="radio" 
+              value="Big"checked></label><br>
+        <label>Medium
+            <input name="pizza_size" type="radio" 
+             value="Medium"></label><br>
+        <label>Small
+            <input name="pizza_size" type="radio" 
+             value="Small"></label><br>
+        
+    </p>
+    <p>
+        <label><strong>Select the crust type:</strong></label><br>
+        <select name="crust_type">
+            <option>Thin</option>
+            <option>Gluten Free</option>
+            <option>Medium</option>
+            <option selected>Deep Dish</option>
+            
+        </select>
+    </p>
+    <p>
+        <label><strong>Select the filler:</strong></label><br>
+        
+        <label>Sausages
+            <input name="toppings" type="checkbox" 
+              value="Sausages"></label><br>
+        <label>Pepper
+            <input name="toppings" type="checkbox" 
+              value="Pepper"></label><br>
+        <label>Mushrooms
+            <input name="toppings" type="checkbox" 
+              value="Mushrooms"></label><br> 
+    </p>
+    <p>
+        <label><strong>Name:</strong>
+            <input name="name" type="text" size="20" maxlength="15" > 
+        </label><br>
+        <label><strong>Phone:</strong>
+            <input type="tel" type="number" size="20" maxlength="9" > 
+        </label><br>  
+        <textarea name="message" rows="4" cols="36" placeholder="Message:"></textarea>
+    </p>    
+    <p>
+        <input type = "submit" value = "Send">
+        <input type = "reset" value = "Reset">
+    </p>
+</form>
+</body>
+</html>
