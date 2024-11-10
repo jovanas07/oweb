@@ -1,0 +1,51 @@
+body {
+    background-image: url(fruit-and-vegetables.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin:10px;
+
+}
+.container{
+    backdrop-filter: blur(10px);
+    margin-top: 100px;
+}
+h1 {
+    text-align:center;
+    margin-top:50%;
+    font-size:xx-large;
+    color: rgba(192, 25, 39, 0.997);
+    text-shadow:rgb(251, 246, 251);   
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+h3{
+    text-align: center;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(206, 29, 70);
+}
+p{
+    text-align: center;
+    margin-top: auto;
+    font-size: 30px;
+    color:rgba(139, 48, 48, 0.997);
+    text-shadow: rgb(138, 29, 29);
+    font-family: Arial, Helvetica, sans-serif;
+}
+.center {
+    display: flex;
+    color: rgb(171, 33, 33);
+    justify-content: center;
+    margin-top: 10px;
+}
+
+button {
+    background: rgb(255, 237, 237); 
+    color:rgb(210, 47, 47);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 25px;
+    text-align: center;
+    border-radius: 5px 5px 5px 5px;
+} 
