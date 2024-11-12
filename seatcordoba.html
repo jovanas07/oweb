@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+    <meta charset="utf-8">
+    <title>seat</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   <style>
+    body{
+        background:linear-gradient(white,gray);
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-family: fantasy;
+        font-size: 5rem;
+        text-align: center;
+        color: black;
+        
+    }
+    p{
+        font-family: fantasy;
+        font-size: medium;
+        color: black;
+        text-align: left;
+    }
+    img{
+        
+        width: 70%;
+        height: 70%;
+        margin:  1rem 0;
+        
+    }
+  h2{
+    font-family:fantasy;
+    color: black;
+    
+  }
+  button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: beige;
+}
+textarea {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-left: 200px;
+    display: flex;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; 
+    gap: 20px; 
+}
+
+.spec-container {
+    display: flex;
+    justify-content: space-between; 
+    gap: 20px;
+}
+
+.container1, .container2 {
+    width:60; 
+}
+   </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="container1">
+            
+            <img src="seatcordoba.jpg" class="img-rounded" alt="seat" >
+            <h1>Price:4500€</h1>
+            </div>
+            <div class="container2">
+                <h2>Specificaions:</h2>
+                <p>Brand:	Volkswagen</p>
+                   <p>Model: SEAT Córdoba 2009</p>
+                   <p>Chassis: Sedan, 4 doors</p>
+                   <p>Engine Configuration 1.4 I4</p>
+                   <p>Power:55 kW (75 hp)</p>
+                   <p>Total kilometers driven:230000km</p>
+           
+            </div>
+
+    </div>
+        <div class="button">
+        <button id="likeBtn">👍 Like</button>
+        <span id="likeCount">0</span>
+        </div>
+        <div>
+        
+            <textarea id="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea><br>
+            <button id="submitComment">Submit</button>
+        </div>
+
+       
+
+        
+        </div>
+        <script  src="jscript.js"></script>
+    </body>
+</html>
+

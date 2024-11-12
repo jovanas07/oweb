@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+
+
+    <head>
+    <meta charset="utf-8">
+    <title>polo</title>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+   <style>
+    body{
+        background:linear-gradient(white,gray);
+        background-size: cover;
+        background-position: center;
+    }
+    h1{
+        font-family: fantasy;
+        font-size: 5rem;
+        text-align: center;
+        color: black;
+        
+    }
+    p{
+        font-family: fantasy;
+        font-size: medium;
+        color: black;
+        text-align: left;
+    }
+    img{
+        
+        width: 70%;
+        height: 70%;
+        margin:  1rem 0;
+        
+    }
+  h2{
+    font-family:fantasy;
+    color: black;
+    
+  }
+  button {
+    background-color: grey;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+button:hover {
+    background-color: beige;
+}
+textarea {
+    width: 40%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    margin-left: 200px;
+    display: flex;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(59, 55, 55);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:beige;
+}
+
+.container {
+    display: flex;
+    flex-direction: row; /* Може да биде "row" ако сакате да ги поставите елементите во ред */
+    gap: 20px; /* Размак помеѓу елементите */
+}
+
+.spec-container {
+    display: flex;
+    justify-content: space-between; /* Позиционира ги двете контејнери едно до друго */
+    gap: 20px;
+}
+
+.container1, .container2 {
+    width:60; /* Вкупната ширина на двата контејнера ќе биде 100%, затоа ќе оставиме мал простор меѓу нив */
+}
+   </style>
+    </head>
+
+    <body>
+        
+        <div class="container">
+            <div class="container1">
+            <h1><strong>Volkswagen Polo VI </strong></h1>
+            <img src="polofacelift.jpg" class="img-rounded" alt="Polo" >
+            <h1>Price:15000€</h1>
+            </div>
+            <div class="container2">
+                <h2>Specificaions:</h2>
+                <p>Brand:	Volkswagen</p>
+                   <p>Model:	Polo</p>
+                   <p>Generation:	Polo VI (facelift 2021)</p>
+                   <p>Modification (Engine):	1.0 TSI (116 Hp) DSG</p>
+                   <p>Start of production:	2024 year</p>
+                   <p>Powertrain Architecture:	Internal Combustion engine</p>
+                  <p> Body type:	Hatchback</p>
+                  <p> Seats:	5</p>
+                  <p>Doors:	5</p> 
+           
+            </div>
+
+    </div>
+        <div class="button">
+        <button id="likeBtn">👍 Like</button>
+        <span id="likeCount">0</span>
+        </div>
+        <div>
+        
+            <textarea id="comment" rows="4" cols="50" placeholder="Enter your comment here..."></textarea><br>
+            <button id="submitComment">Submit</button>
+        </div>
+
+       
+
+        
+        </div>
+        <script  src="jscript.js"></script>
+    </body>
+</html>
